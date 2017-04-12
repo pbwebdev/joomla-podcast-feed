@@ -1,4 +1,13 @@
 <?php
+
+/*************************************************
+Author: Peter Bui
+URL: https://joomlabe.at
+Email: peter@pbwebdev.com.au
+License: MIT
+Learn more about Joomla at the podcast joomlabe.at
+**************************************************/
+
 date_default_timezone_set('Australia/Sydney');
 mysql_connect("localhost", "user", "password") or die(mysql_error());
 mysql_select_db("database_name") or die(mysql_error());
